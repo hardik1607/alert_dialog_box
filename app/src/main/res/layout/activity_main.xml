@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="corners"
+        android:textSize="@dimen/_20sdp"
+        android:onClick="corners">
+
+    </Button>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="check box"
+        android:textSize="@dimen/_20sdp"
+        android:onClick="check_box">
+
+    </Button>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="radio button"
+        android:onClick="radio_button"
+        android:textSize="@dimen/_20sdp">
+
+    </Button>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simple"
+        android:textSize="@dimen/_20sdp"
+        android:onClick="simple">
+
+    </Button>
+
+</LinearLayout>
